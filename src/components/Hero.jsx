@@ -1,11 +1,11 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import Image from '../assests/my.jpg'
+import Image from '../assests/my2.jpeg'
 
 const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-{1200px} md:h-{70vh} mx-auto py-8 bg-black'>
-        <div className=' col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] sm:ml-12 md:ml-16'>
+        <div className=' col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[300px] sm:ml-12 md:ml-16'>
                 <img src={Image} alt='my'/>
             </div>
         
